@@ -53,6 +53,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, index|
-    string.insert.reject_at(2)(-1, "s")
+    string.insert(-1, "s").except(2)
   end
 end
