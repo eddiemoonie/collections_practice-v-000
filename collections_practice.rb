@@ -56,4 +56,3 @@ def add_s(array)
     string.insert(-1, "s")
   end
 end
-    
